@@ -11,3 +11,4 @@ src-git helloworld https://github.com/fw876/helloworld
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 #passwall依赖
 src-git small https://github.com/kenzok8/small
+src-git openappfilter https://github.com/destan19/OpenAppFilter
