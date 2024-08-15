@@ -6,7 +6,7 @@ src-git lienol https://github.com/Lienol/openwrt-package.git;main
 src-git other https://github.com/Lienol/openwrt-package.git;other
 
 #src-git diy1 https://github.com/xiaorouji/openwrt-package.git;master
-src-git helloworld https://github.com/fw876/helloworld
+#src-git helloworld https://github.com/fw876/helloworld
 #openwrt常用软件包(较稳定)
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 #passwall依赖
