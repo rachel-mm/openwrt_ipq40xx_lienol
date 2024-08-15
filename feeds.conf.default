@@ -1,17 +1,16 @@
-src-git packages https://github.com/Lienol/openwrt-packages.git;21.02
-src-git luci https://github.com/Lienol/openwrt-luci.git;21.02
-src-git routing https://git.openwrt.org/feed/routing.git;openwrt-21.02
-src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-21.02
-#src-link custom /usr/src/openwrt/custom-feed
+src-git packages https://github.com/Lienol/openwrt-packages.git;23.05
+src-git luci https://github.com/Lienol/openwrt-luci.git;23.05
+src-git routing https://git.openwrt.org/feed/routing.git;openwrt-23.05
+src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-23.05
 src-git lienol https://github.com/Lienol/openwrt-package.git;main
 src-git other https://github.com/Lienol/openwrt-package.git;other
 
 #src-git diy1 https://github.com/xiaorouji/openwrt-package.git;master
-#src-git helloworld https://github.com/fw876/helloworld
+src-git helloworld https://github.com/fw876/helloworld
 #openwrt常用软件包(较稳定)
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 #passwall依赖
-src-git small https://github.com/kenzok8/small
+#src-git small https://github.com/kenzok8/small
 #openwrt软件包(软件较多且新,编译可能会出错)
-#src-git small8 https://github.com/kenzok8/small-package
+src-git small8 https://github.com/kenzok8/small-package
 src-git openappfilter https://github.com/destan19/OpenAppFilter
