@@ -75,8 +75,15 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
-
-    - name: Update feeds
+    - name: Update Golang package in OpenWrt
+      run: |
+        # Remove existing golang package
+        rm -rf feeds/packages/lang/golang
+        
+        # Clone the specific golang package
+        git clone  https://github.com/kenzok8/golang feeds/packages/lang/golang
+ 
+   - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
 
     - name: Install feeds
